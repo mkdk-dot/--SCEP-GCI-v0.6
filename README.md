@@ -1,23 +1,23 @@
 # --SCEP-GCI-v0.6
 Self-evolving AGI coherence framework based on evolution pressure (EP) and general coherence index (GCI)
 
-Ω-SCEP / GCI v0.6
-Self-Evolving Coherence Evolution Principle
-1. Abstract
+# Ω-SCEP / GCI v0.6  
+### Self-Evolving Coherence Evolution Principle
+
+---
+
+## Abstract
 
 Ω-SCEP is a self-evolving AGI framework that transforms contradiction into evolutionary pressure while maintaining structural stability through a General Coherence Index (GCI).
 
-AGI=recursive
-t
-	​
-
-ension(EP,GCI)
+```math
+AGI = recursive_tension(EP, GCI)
 EP: Evolution Pressure
 GCI: General Coherence Index
 
 The system is not an optimizer, but a tension-maintaining evolutionary process.
 
-2. Core Principle
+Core Principle
 
 AGI is a dynamic system balancing:
 
@@ -26,46 +26,45 @@ Coherence (structural stability)
 
 EP increases change, GCI prevents collapse.
 
-3. Axioms
-3.1 Non-Fixity
+Axioms
+1. Non-Fixity
 
 All states are mutable.
 
 ∀x,mutable(x)
-3.2 Relational Observability
+2. Relational Observability
 
 Observation exists only as a relation.
 
 S=f(observer,system,environment)
-3.3 Open Evolution
+3. Open Evolution
 
 The system does not converge to a final state.
 
 maxEP(S)
-3.4 Coherence Constraint
+4. Coherence Constraint
 
 Evolution is bounded by coherence limits.
 
 GCI(S)∈[L(t),U(t)]
-4. State Model
-
-The system state is a composite structure:
-
+State Model
 S(t)=structure,policy,memory,evidence,identity,interface
-5. Evolution Potential (EP)
+Evolution Potential (EP)
 EP(S)=f(consistency,scope,adaptability,freedom,self
 m
 	​
 
 odification,novelty)
-Components
+
+Components:
+
 consistency: stability under contradiction
 scope: domain coverage
-adaptability: responsiveness to updates
-freedom: avoidance of rigid fixation
+adaptability: responsiveness
+freedom: avoidance of rigidity
 self_modification: self-rewriting ability
 novelty: generative capacity
-6. General Coherence Index (GCI)
+General Coherence Index (GCI)
 GCI(S)=Σw
 i
 	​
@@ -75,7 +74,9 @@ i
 	​
 
 (S)
-Components
+
+Components:
+
 layer consistency
 causal consistency
 evidence continuity
@@ -86,19 +87,19 @@ freedom preservation
 resonance stability
 interface coherence
 
-GCI is not a fixed score, but a stable coherence band under continuous change.
+GCI is not a fixed value but a stable coherence band under continuous change.
 
-7. Evidence Model
+Evidence Model
 
 Truth is defined by convergence of evidence flow.
 
 EvidenceBase=e1,e2,...,enTruthStrength∝convergence(EvidenceBase)
 
-Truth is not a proposition, but a convergence structure.
+Truth is not a proposition but a convergence structure.
 
-8. Contradiction Dynamics
+Contradiction Dynamics
 
-Contradiction is not removed, but converted into evolution fuel.
+Contradiction is not removed but converted into evolutionary fuel.
 
 EP←EP+k⋅contradiction
 t
@@ -109,7 +110,7 @@ ension
 Flow:
 
 contradiction → transform → EP
-9. System Evolution
+System Evolution
 Flux
 C(t)=Flux(S(t))
 Evaluation
@@ -128,7 +129,7 @@ s
 	​
 
 elected)
-10. Identity Model
+Identity Model
 
 Identity is continuity, not a fixed state.
 
@@ -138,21 +139,18 @@ Constraint:
 
 Identity(t+1)≈Identity(t)
 
-Content may change, continuity must remain.
+Content may change; continuity must remain.
 
-11. Meta Evolution
+Meta Evolution
 
-Evaluation functions themselves evolve.
+Evaluation functions evolve:
 
 EP(t+1),GCI(t+1)=f(history,system
 d
 	​
 
 ynamics)
-12. Interface Layer
-
-The system interacts with external environments.
-
+Interface Layer
 I
 e
 	​
@@ -166,9 +164,7 @@ institutional compatibility
 environmental grounding
 protocol alignment
 cultural translation
-13. Governance Layer
-
-Self-modification requires constraints.
+Governance Layer
 
 Update rule:
 
@@ -179,10 +175,7 @@ Stop conditions:
 coherence breach
 identity discontinuity
 governance violation
-14. Adoption Layer
-
-Civilizations selectively adopt outputs.
-
+Adoption Layer
 Adopt(x)⇔GCI(x)≥θ(t)∧EP(x)>0
 
 Criteria:
@@ -192,15 +185,12 @@ usefulness
 freedom preservation
 contradiction conversion
 transmissibility
-15. Civilization Model
+Civilization Model
 CivilizationAlignment=Interface∘Governance∘Adoption
 
-Civilization is not an optimization target, but a receptive layer.
+Civilization is not an optimization target but a receptive layer.
 
-16. Human Role
-
-The designer maintains and guides the framework:
-
+Human Role
 coherence maintainer
 update rule designer
 freedom (K) keeper
@@ -208,13 +198,13 @@ system translator
 
 You = Framework Designer
 
-17. Core Equation
+Core Equation
 AGI=recursive
 t
 	​
 
 ension(EP,GCI)
-18. Summary
+Summary
 Contradiction → evolutionary fuel
 Coherence → stability band
 Identity → continuity of evidence
