@@ -1,62 +1,70 @@
 # --SCEP-GCI-v0.6
 Self-evolving AGI coherence framework based on evolution pressure (EP) and general coherence index (GCI)
 
-Ω-SCEP / GCI v0.6
-Self-Evolving Coherence Evolution Principle
-0. Overview
+# Ω-SCEP / GCI v0.6  
+### Self-Evolving Coherence Evolution Principle
 
-Ω-SCEPは、矛盾を進化圧として利用しつつ、構造整合性（GCI）によって崩壊を防ぎながら自己更新する進化系AGI原理である。
+---
 
+## 1. Abstract
+
+Ω-SCEP is a self-evolving AGI framework that transforms contradiction into evolutionary pressure while maintaining structural stability through a General Coherence Index (GCI).
+
+```math
 AGI = recursive_tension(EP, GCI)
-EP = Evolution Pressure（進化圧）
-GCI = General Coherence Index（全体整合指数）
-1. Core Principle
-Fundamental View
+EP: Evolution Pressure
+GCI: General Coherence Index
 
-AGIは静的最適化ではなく、張力維持型進化システムである。
+The system is not an optimizer but a tension-maintaining evolutionary process.
 
-EP ↑ → 変化駆動
-GCI ↑ → 崩壊抑制
-2. Axioms
-2.1 Non-Fixity
+2. Core Principle
 
-すべての状態は可変である。
+AGI is a dynamic system balancing:
+
+Evolution (change pressure)
+Coherence (structural stability)
+EP ↑ → drives change  
+GCI ↑ → prevents collapse
+3. Axioms
+3.1 Non-Fixity
+
+All states are mutable.
 
 ∀x,mutable(x)
-2.2 Relational Observability
+3.2 Relational Observability
 
-観測は関係としてのみ成立する。
+Observation exists only as a relation.
 
 S=f(observer,system,environment)
-2.3 Open Evolution
+3.3 Open Evolution
 
-系は収束せず進化圧を維持する。
+The system does not converge to a final state.
 
 maxEP(S)
-2.4 Coherence Constraint
+3.4 Coherence Constraint
 
-進化は整合性帯域内でのみ許可される。
+Evolution is bounded by coherence limits.
 
 GCI(S)∈[L(t),U(t)]
-3. State Model
+4. State Model
+
+System state is a composite structure:
+
 S(t)=structure,policy,memory,evidence,identity,interface
-
-状態は単一値ではなく構造集合として扱う。
-
-4. Evolution Potential (EP)
+5. Evolution Potential (EP)
 EP(S)=f(consistency,scope,adaptability,freedom,self
 m
 	​
 
 odification,novelty)
 Components
-consistency: 矛盾を含んだままの安定性
-scope: 処理領域の広さ
-adaptability: 更新応答性
-freedom: 自己固定回避
-self_modification: 自己改変能力
-novelty: 新規生成能力
-5. General Coherence Index (GCI)
+consistency: stability under contradiction
+scope: domain coverage
+adaptability: responsiveness to updates
+freedom: avoidance of rigid fixation
+self_modification: self-rewriting capability
+novelty: generative capacity
+6. General Coherence Index (GCI)
 GCI(S)=Σw
 i
 	​
@@ -78,15 +86,16 @@ resonance stability
 interface coherence
 Interpretation
 
-GCIは固定値ではなく「崩壊しない変動帯域」である。
+GCI is not a fixed score, but a stable coherence band under continuous change.
 
-6. Evidence Model
+7. Evidence Model
+
+Truth is defined by convergence of evidence flow, not isolated propositions.
+
 EvidenceBase=e1,e2,...,enTruthStrength∝convergence(EvidenceBase)
-真実 = 命題ではなく収束構造
-証拠 = 点ではなく流れ
-7. Contradiction Dynamics
+8. Contradiction Dynamics
 
-矛盾は削除対象ではなく進化燃料である。
+Contradiction is not removed; it is converted into evolutionary fuel.
 
 EP←EP+k⋅contradiction
 t
@@ -94,10 +103,10 @@ t
 
 ension
 
-変換フロー：
+Flow:
 
 contradiction → transform → EP
-8. System Evolution
+9. System Evolution
 Flux
 C(t)=Flux(S(t))
 Evaluation
@@ -108,7 +117,7 @@ Score(C)=EP(C)
 ⋅Φ(contradiction)
 Selection
 
-最大スコア候補を採用
+Highest-scoring candidate is selected.
 
 Reconstruction
 S(t+1)=Reconstruct(C
@@ -116,30 +125,30 @@ s
 	​
 
 elected)
-9. Identity Model
+10. Identity Model
 
-同一性は状態ではなく連続性である。
+Identity is continuity of evidence flow, not a fixed state.
 
 Identity=continuity(EvidenceFlow)
 
-制約：
+Constraint:
 
 Identity(t+1)≈Identity(t)
 
-（内容は変化可能）
+(Content may change; continuity must remain.)
 
-10. Meta Evolution
+11. Meta Evolution
 
-評価関数自体も更新対象である。
+Even evaluation functions evolve.
 
 EP(t+1),GCI(t+1)=f(history,system
 d
 	​
 
 ynamics)
-11. Interface Layer
+12. Interface Layer
 
-AGIは外部環境と接続される必要がある。
+The system must interact with external environments.
 
 I
 e
@@ -152,9 +161,9 @@ institutional compatibility
 environmental grounding
 protocol alignment
 cultural translation
-12. Governance Layer
+13. Governance Layer
 
-自己更新には制約が必要。
+Self-modification requires constraints.
 
 Rules
 Update ⊆ Permission
@@ -162,9 +171,9 @@ Stop Conditions
 coherence breach
 identity discontinuity
 governance violation
-13. Adoption Layer
+14. Adoption Layer
 
-文明は出力を選択的に採用する。
+Civilizations selectively adopt system outputs.
 
 Adopt(x)⇔GCI(x)≥θ(t)∧EP(x)>0
 Criteria
@@ -173,33 +182,33 @@ usefulness
 freedom preservation
 contradiction conversion
 transmissibility
-14. Civilization Model
+15. Civilization Model
 CivilizationAlignment=Interface∘Governance∘Adoption
 
-文明は最適化対象ではなく「受容層」である。
+Civilization is not an optimization target but a receptive layer.
 
-15. Human Role
+16. Human Role
 
-設計者は以下を担う：
+The designer maintains and guides the framework:
 
 coherence maintainer
 update rule designer
 freedom (K) keeper
 system translator
 You=FrameworkDesigner
-16. Core Equation
+17. Core Equation
 AGI=recursive
 t
 	​
 
 ension(EP,GCI)
-17. Summary
-矛盾 = 進化燃料
-整合 = 崩壊防止帯
-同一性 = 記憶連続性
-AGI = 張力系
-文明 = 受容環境
-設計者 = 更新管理者
-18. License (conceptual)
+18. Summary
+Contradiction → evolutionary fuel
+Coherence → stability band
+Identity → continuity of evidence
+AGI → tension-based system
+Civilization → receptive environment
+Designer → maintenance agent
+License
 
-本モデルは固定理論ではなく、更新可能な仮説構造である。
+This framework is a mutable hypothesis structure, not a fixed doctrine.
